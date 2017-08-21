@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="guitar.css">
+    <script type="text/javascript" src="page2.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+<div class="jumbotron">
+
+    <!--<div class="navbar"></div><br><br>-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="guitar.html">Guitar Station</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li ><a href="guitar.html">Guitar</a></li>
+                <li><a href="#">Bass</a></li>
+                <li><a href="#">Drums</a></li>
+                <li><a href="#">Keyboards</a></li>
+                <li><a href="#">Dj & Lighting</a></li>
+                <li><a href="#">Used Gear</a></li>
+                <li><a href="#">Clearance</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-4"><img class="img-thumbnail" id="img1" height="20px" width="400px" ></div>
+            <div class="col-sm-8"><div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Product Information</div>
+                    <div class="panel-body" id="productinformation"></div>
+                </div>
+            </div> </div>
+        </div>
+    </section>
+
+  <!--<img id="img1" height="200px" width="35%">-->
+
+    <!--<div id="productinformation"></div><br><br><br><br><br><br>-->
+
+    <!--<div id="formdiv"><br>-->
+
+        <!--<form name="Formdiv" action="page2.html">-->
+            <!--First Name: <input type="text" name="fname" id="text1"> <br><br>-->
+            <!--Last Name:<input type="text" name="lname" id="text2"><br><br>-->
+            <!--Credit Card:<input type="text" name="cc" id="text3"><br><br>-->
+            <!--Email:<input type="text" name="email" id="text4"><br><br>-->
+
+
+        <!--</form>-->
+
+    <!--</div>-->
+<div style="text-align: center;">
+    <h2>Purchase Information</h2>
+</div>
+
+    <div id="formdiv">
+
+
+        <form name="Formdiv" action="page2.html">
+            <div class="form-group">
+                <label for="usr">First Name:</label>
+                <input type="text" class="form-control" id="usr" name="fname">
+            </div>
+            <div class="form-group">
+                <label for="usr">Last Name:</label>
+                <input type="text" class="form-control" id="usr1" name="lname">
+            </div>
+            <div class="form-group">
+                <label for="usr">Credit Card:</label>
+                <input type="text" class="form-control" id="usr2" name="cc">
+            </div>
+            <div class="form-group">
+                <label for="usr">E-mail:</label>
+                <input type="email" class="form-control" id="usr3" name="email">
+
+            </div>
+        </form>
+    </div>
+
+            <input type="button" value="Go to Review" onclick="validateForm()" id="reviewbtn" class="btn btn-primary"/>
+
+
+
+
+
+
+    <div id="temp1">
+
+
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+        <!--<button id="temp2" onclick="Edit()">Edit</button>-->
+        <button type="button" class="btn btn-primary" onclick="Edit()" id="temp2" style="visibility: hidden">Edit</button>
+
+
+    </div>
+    <br><br>
+
+    <!--<button type="button" onclick="buy()" id="buybutton2">Buy</button>-->
+
+    <button type="button" class="btn btn-primary btn-block" onclick="buy()" id="buybutton2">Buy</button>
+
+</div>
+</body>

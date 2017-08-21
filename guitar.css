@@ -1,0 +1,162 @@
+/*#div1*/
+/*{*/
+/*!*border: 1px solid black;*!*/
+/*height: auto;*/
+/*width:1250px;*/
+/*float: left;*/
+/*position: relative;*/
+/*left: 50px;*/
+/*!*top: 50px;*!*/
+/*}*/
+
+
+/*div.navbar*/
+/*{*/
+/*border:1px solid black;*/
+/*height:40px;*/
+/*width:600px;*/
+/*position: relative;*/
+/*left: 80px;*/
+/*top: 15px;*/
+/*}*/
+
+/*#guitarimg*/
+/*{*/
+
+/*position: relative;*/
+/*height:300px;*/
+/*width: 500px;*/
+/*top: 30px;*/
+/*left: 120px;*/
+
+/*}*/
+/*#img*/
+/*{*/
+/*position: relative;*/
+/*height: 300px;*/
+/*width: 500px;*/
+/*top: 30px;*/
+/*left: 350px;*/
+/*}*/
+
+/*.button1*/
+/*{*/
+/*position: relative;*/
+/*left: 300px;*/
+/*}*/
+/*.button2*/
+/*{*/
+/*position: relative;*/
+/*left: 750px;*/
+/*}*/
+
+
+/*button.accordion {*/
+/*background-color: #eee;*/
+/*color: #444;*/
+/*cursor: pointer;*/
+/*padding: 18px;*/
+/*width: 100%;*/
+/*border: none;*/
+/*text-align: center;*/
+/*outline: none;*/
+/*font-size: 15px;*/
+/*transition: 0.4s;*/
+/*}*/
+
+/*button.accordion.active, button.accordion:hover {*/
+/*background-color: #ddd;*/
+/*}*/
+
+/*div.panel {*/
+/*padding: 0 18px;*/
+/*display: none;*/
+/*background-color: white;*/
+/*}*/
+
+/*#buybutton*/
+/*{*/
+/*padding:0 18px;*/
+/*text-align: center;*/
+/*position: relative;*/
+/*left: 580px;*/
+
+/*}*/
+/*#buybutton2*/
+/*{*/
+/*padding:0 18px;*/
+/*position: relative;*/
+/*left: 520px;*/
+/*top: 150px;*/
+
+/*}*/
+
+/*#img1*/
+/*{*/
+/*position: relative;*/
+/*height: 130px;*/
+/*width: 300px;*/
+/*top: 35px;*/
+/*left: 50px;*/
+
+/*}*/
+
+/*#img2*/
+/*{*/
+
+/*position: relative;*/
+/*height: 300px;*/
+/*width: 400px;*/
+/*top: 20px;*/
+/*left: 410px;*/
+/*}*/
+
+
+/*#productinformation*/
+/*{*/
+/*position: absolute;*/
+/*top: 110px;*/
+/*left: 420px;*/
+/*width: 800px;*/
+/*}*/
+
+/*#temp1*/
+/*{*/
+/*visibility: hidden;*/
+/*display: block;*/
+/*top: 50px;*/
+/*left: 230px;*/
+/*position: relative;*/
+
+
+/*}*/
+
+/*#formdiv*/
+/*{*/
+/*height:auto;*/
+/*width:700px;*/
+/*!*border: 1px solid black;*!*/
+/*position: relative;*/
+/*top: 50px;*/
+/*left: 230px;*/
+/*}*/
+/*#reviewbtn*/
+/*{*/
+/*position: relative;*/
+/*top: 60px;*/
+/*left: 500px;*/
+
+/*}*/
+
+/*#page3datadesc*/
+/*{*/
+/*position: absolute;*/
+/*top: 500px;*/
+/*}*/
+
+/*#temp2*/
+/*{*/
+/*position: relative;*/
+/*left: 300px;*/
+/*}*/
+
